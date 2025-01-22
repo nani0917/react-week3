@@ -2,12 +2,14 @@
   "name": "react-week3",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://chiang-mb.github.io/react-week3/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.7.9",
